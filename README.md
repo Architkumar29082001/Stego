@@ -1,6 +1,6 @@
 # Stego
 Overview
-The provided Python code implements a simple Steganography (image-based) project using the Tkinter GUI library for the user interface, and the Pillow (PIL) library for image processing. The application allows users to encode and decode hidden messages within images.
+The provided Python code implements a simple Steganography (image-based) project using the Tkinter GUI library for the user interface and the Pillow (PIL) library for image processing. The application allows users to encode and decode hidden messages within images.
 
 Classes
 IMG_Stegno
@@ -38,14 +38,20 @@ The user interface is implemented using Tkinter, providing a simple layout with 
 Buttons such as "Encode" and "Decode" trigger the corresponding actions.
 Users can select image files for encoding or decoding using the "Select" button.
 Text areas are provided for entering or displaying messages.
+
+
 Dependencies
 The code uses the Tkinter library for GUI, Pillow for image processing, and BytesIO for handling image data.
+
+
 Usage
 Run the script.
 The main window appears with options to encode or decode.
 Select "Encode" to hide a message in an image or "Decode" to reveal a hidden message.
 Follow the on-screen instructions to select images and enter messages.
 Save the output image with the hidden message.
+
+
 Note
 This documentation provides an overview of the code structure and functionality.
 Ensure that the required libraries (Tkinter, Pillow) are installed before running the code.
