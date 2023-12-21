@@ -34,10 +34,7 @@ enc_fun(self, text_a, myImg): Initiates the encoding process and saves the new i
 frame_3(self, frame): Destroys the current frame and returns to the main frame.
 
 User Interface
-The user interface is implemented using Tkinter, providing a simple layout with buttons and labels.
-Buttons such as "Encode" and "Decode" trigger the corresponding actions.
-Users can select image files for encoding or decoding using the "Select" button.
-Text areas are provided for entering or displaying messages.
+The user interface is implemented using Tkinter, providing a simple layout with buttons and labels. Buttons such as "Encode" and "Decode" trigger the corresponding actions. Users can select image files for encoding or decoding using the "Select" button. Text areas are provided for entering or displaying messages.
 
 
 Dependencies
@@ -45,15 +42,8 @@ The code uses the Tkinter library for GUI, Pillow for image processing, and Byte
 
 
 Usage
-Run the script.
-The main window appears with options to encode or decode.
-Select "Encode" to hide a message in an image or "Decode" to reveal a hidden message.
-Follow the on-screen instructions to select images and enter messages.
-Save the output image with the hidden message.
+Run the script. The main window appears with options to encode or decode. Select "Encode" to hide a message in an image or "Decode" to reveal a hidden message. Follow the on-screen instructions to select images and enter messages. Save the output image with the hidden message.
 
 
 Note
-This documentation provides an overview of the code structure and functionality.
-Ensure that the required libraries (Tkinter, Pillow) are installed before running the code.
-The code may need adjustments based on future library updates or changes.
-Customize and extend the code for additional features or improvements.
+This documentation provides an overview of the code structure and functionality. Ensure that the required libraries (Tkinter, Pillow) are installed before running the code. The code may need adjustments based on future library updates or changes. Customize and extend the code for additional features or improvements.
